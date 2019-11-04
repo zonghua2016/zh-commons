@@ -1,4 +1,4 @@
-# zh-loading
+# typing
 > vue typing 打字组件
 
 ## 1. Install
