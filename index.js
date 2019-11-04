@@ -1,6 +1,6 @@
 import ZhLoading from './src/components/loading/ZhLoading'
 import Typing from './src/components/typing/Typing'
-import CountUp from './src/components/typing/CountUp'
+import CountUp from './src/components/countup/CountUp'
 import _Vue from 'vue'
 
 const components = [ZhLoading, Typing, CountUp]
