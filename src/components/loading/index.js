@@ -1,4 +1,4 @@
-import ZhLoading from './src/components/ZhLoading'
+import ZhLoading from './ZhLoading'
 import _Vue from 'vue'
 
 ZhLoading.install = Vue => {
