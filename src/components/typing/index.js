@@ -1,4 +1,4 @@
-import Typing from './src/components/Typing'
+import Typing from './Typing'
 import _Vue from 'vue'
 
 Typing.install = Vue => {
