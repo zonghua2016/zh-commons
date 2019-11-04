@@ -5,15 +5,15 @@
                :borderWidth="3" />
     <Typing>asf顺丰到付sfs</Typing> -->
     <CountUp class="countup"
-             :endVal="8967"
-             @countUpComplete="complete"
-             :updateNum="9999.99"
-             :countUpOptions="{
-               useGrouping:true, 
-               duration:.5, 
-               decimalPlaces:3,
-               separator:'*'
-              }" />
+             :endVal="89757"
+             @ready="ready"
+             :options="{
+               decimalPlaces: 3,
+             }" />
+
+    <button @click="pause">暂停</button>
+    <button @click="reset">重置</button>
+    <button @click="update">更新</button>
   </div>
 </template>
 
@@ -25,22 +25,23 @@ export default {
   data() {
     return {
       size: 260,
-      borderWidth: 8
+      borderWidth: 8,
+      countUp: null
     }
   },
   methods: {
-    complete: function () {
-      console.log('数字');
+    ready(countUp) {
+      this.countUp = countUp;
     },
-    updateComplete() {
-      console.log('更细');
-
+    pause() {
+      this.countUp.pauseResume()
     },
-    update: function () {
-      return function (num, dalay) {
-
-      }
+    reset() {
+      this.countUp.reset()
     },
+    update() {
+      this.countUp.update(889988)
+    }
   },
   components: {
     ZhLoading,

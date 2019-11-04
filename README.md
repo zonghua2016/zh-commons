@@ -32,8 +32,9 @@ import { ZhLoading, Typing } from 'zh-commons';
 ```
 ## 4. Components
 
-- zh-loading
+- loading
 - typing
+- countUp
 
 ## 5. 具体参数参考 `components` 下对应组件 README.md 文档
   前往 [git 仓库](https://github.com/zonghua2016/zh-commons.git)
