@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/zonghua2016/zh-commons.git"
   },
+  "keywords": ["commons", "countUp", "count down", "vue-countUp", "loading", "vue-loading", "typing", "vue-typing"],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
