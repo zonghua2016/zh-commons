@@ -1,0 +1,23 @@
+{
+  "name": "zh-commons",
+  "version": "0.0.0",
+  "description": "个人公共vue组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zonghua2016/zh-commons.git"
+  },
+  "keywords": [
+    "vue",
+    "组件库"
+  ],
+  "author": "tongzonghua <tongzonghua@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zonghua2016/zh-commons/issues"
+  },
+  "homepage": "https://github.com/zonghua2016/zh-commons#readme"
+}
