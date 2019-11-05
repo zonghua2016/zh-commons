@@ -2,6 +2,11 @@
 
 > 个人公共vue组件库
 
+#
+  组件库中所有包含的组件都在 [src/components](https://github.com/zonghua2016/zh-commons/tree/master/src/components) 中 <br/>
+  在第4节中也有说明
+#
+
 ## 1. Install
   ```js
   npm install zh-commons
@@ -36,5 +41,5 @@ import { ZhLoading, Typing } from 'zh-commons';
 - typing
 - countUp
 
-## 5. 具体参数参考 `components` 下对应组件 README.md 文档
+## 5. 具体参数参考 [src/components](https://github.com/zonghua2016/zh-commons/tree/master/src/components) 下对应组件 README 文档
   前往 [git 仓库](https://github.com/zonghua2016/zh-commons.git)

@@ -1,6 +1,9 @@
 # CountUp
 > vue countup 数字递增组件（ [countup.js](https://github.com/inorganik/countUp.js) ）
 
+## vue 组件库 zh-commons 地址
+  [https://github.com/zonghua2016/zh-commons](https://github.com/zonghua2016/zh-commons)
+
 ## 1. Install
   ```js
   npm install zh-commons
@@ -32,6 +35,34 @@ import { CountUp } from 'zh-commons';
     <button @click="update">更新</button>
   </div>
 </template>
+
+<script>
+import { CountUp } from 'zh-commons'
+export default {
+  data() {
+    return {
+      countUp: null
+    }
+  },
+  methods: {
+    ready(countUp) {
+      this.countUp = countUp;
+    },
+    pause() {
+      this.countUp.pauseResume()
+    },
+    reset() {
+      this.countUp.reset()
+    },
+    update() {
+      this.countUp.update(8899775577)
+    }
+  },
+  components: {
+    CountUp
+  }
+}
+</script>
 ```
 
 3. 参考参数

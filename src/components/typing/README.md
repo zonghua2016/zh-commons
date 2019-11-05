@@ -1,6 +1,9 @@
 # typing
 > vue typing 打字组件
 
+## vue 组件库 zh-commons 地址
+  [https://github.com/zonghua2016/zh-commons](https://github.com/zonghua2016/zh-commons)
+
 ## 1. Install
   ```js
   npm install zh-commons
