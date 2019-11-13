@@ -84,4 +84,4 @@ export default {
   |    suffix                 |  ""   |     后置字符    |
 
 
-4. 详细文档参考 countUp [官方文档](http://inorganik.github.io/countUp.js/) 和 [git仓库](https://github.com/inorganik/countUp.js)
+4. 详细文档参考 countUp [官方文档](http://inorganik.github.io/countUp.js/) 和 [git 仓库](https://github.com/inorganik/countUp.js)
