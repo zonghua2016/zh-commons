@@ -4,7 +4,7 @@
                :cicleNum="4"
                :borderWidth="3" />
     <Typing>asf顺丰到付sfs</Typing> -->
-    <CountUp class="countup"
+    <!-- <CountUp class="countup"
              :endVal="89757"
              @ready="ready"
              :options="{
@@ -13,7 +13,8 @@
 
     <button @click="pause">暂停</button>
     <button @click="reset">重置</button>
-    <button @click="update">更新</button>
+    <button @click="update">更新</button> -->
+    <Icon iconClass="gengduo"/>
   </div>
 </template>
 
@@ -21,6 +22,7 @@
 import ZhLoading from './components/loading/ZhLoading'
 import Typing from './components/typing/Typing'
 import CountUp from './components/countup/CountUp'
+import Icon from './components/icon/Icon'
 export default {
   data() {
     return {
@@ -46,7 +48,8 @@ export default {
   components: {
     ZhLoading,
     Typing,
-    CountUp
+    CountUp,
+    Icon
   }
 }
 </script>

@@ -1,7 +1,7 @@
 {
   "name": "zh-commons",
   "description": "个人vue组件库",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "zonghua2016 <2280314971@qq.com>",
   "license": "MIT",
   "private": false,
@@ -45,9 +45,11 @@
     "node-sass": "^4.13.0",
     "sass-loader": "7.3.1",
     "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^3.1.11"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "2.9.1"
   }
 }
