@@ -40,6 +40,7 @@ import { ZhLoading, Typing } from 'zh-commons';
 - loading
 - typing
 - countUp
+- Icon
 
 ## 5. 具体参数参考 [src/components](https://github.com/zonghua2016/zh-commons/tree/master/src/components) 下对应组件 README 文档
   前往 [git 仓库](https://github.com/zonghua2016/zh-commons.git)
