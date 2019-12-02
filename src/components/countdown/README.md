@@ -49,3 +49,22 @@ export default {
   |    format             |   'dd:hh:mm:ss:SS'    |   格式化时间      |
   |    leftPad             |   true    |   是否补零      |
 
+4. **注意**
+
+如果出现如下错误：`vue.esm.js?efeb:628 [Vue warn]: Error in callback for immediate watcher "endTime": "TypeError: __WEBPACK_IMPORTED_MODULE_0__common_js_cd_worker_js___default.a is not a constructor"`
+
+报错原因是当前项目不能正确解析 `.worker.js`  文件
+
+需要将以下代码添加到 webpack 的 loader 里
+
+```js
+{
+  test: /\.worker\.js$/,
+  loader: 'worker-loader',
+  options: {
+    inline: true,
+    fallback: false,
+    name: '[name]:[hash:8].js'
+  }
+}
+```

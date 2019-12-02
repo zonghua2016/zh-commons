@@ -19,7 +19,7 @@
 ## 2. Quick Start
 1.引入 `zh-commons` 组件
 ```js
-import { ZhLoading, Typing } from 'zh-commons';
+import { ZhLoading, Typing, CountUp, Icon, CountDown } from 'zh-commons';
 ```
 
 2.在vue组件中使用
