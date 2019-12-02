@@ -34,13 +34,28 @@ import { ZhLoading, Typing } from 'zh-commons';
 
 ``` html
 <ZhLoading :size="80" :cicleNum="4" :borderWidth="3" :colors="['#fb2', '#8c4', '#0a9', '#17b']" />
+<Typing>asf顺丰到付sfs</Typing>
+<CountUp class="countup"
+          :endVal="89757"
+          @ready="ready"
+          :options="{
+            decimalPlaces: 3,
+          }" />
+
+<button @click="pause">暂停</button>
+<button @click="reset">重置</button>
+<button @click="update">更新</button> 
+<Icon iconClass="gengduo"/>
+<CountDown :endTime="Date.now()+20000" format="mm:ss:S" />
+<CountDown :endTime="Date.now()+300000000" format="dd天hh:mm:ss" />
 ```
 ## 4. Components
 
-- loading
-- typing
-- countUp
+- ZhLoading
+- Typing
+- CountUp
 - Icon
+- CountDown
 
 ## 5. 具体参数参考 [src/components](https://github.com/zonghua2016/zh-commons/tree/master/src/components) 下对应组件 README 文档
   前往 [git 仓库](https://github.com/zonghua2016/zh-commons.git)
