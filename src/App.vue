@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="margin:100px auto;">
     <!-- <ZhLoading :size="80"
                :cicleNum="4"
                :borderWidth="3" />
@@ -13,8 +13,10 @@
 
     <button @click="pause">暂停</button>
     <button @click="reset">重置</button>
-    <button @click="update">更新</button> -->
-    <Icon iconClass="gengduo"/>
+    <button @click="update">更新</button> 
+    <Icon iconClass="gengduo"/> -->
+    <CountDown :endTime="Date.now()+20000" format="mm:ss:S" />
+    <CountDown :endTime="Date.now()+300000000" format="dd天hh:mm:ss" />
   </div>
 </template>
 
@@ -23,6 +25,7 @@ import ZhLoading from './components/loading/ZhLoading'
 import Typing from './components/typing/Typing'
 import CountUp from './components/countup/CountUp'
 import Icon from './components/icon/Icon'
+import CountDown from './components/countdown/CountDown'
 export default {
   data() {
     return {
@@ -49,7 +52,8 @@ export default {
     ZhLoading,
     Typing,
     CountUp,
-    Icon
+    Icon,
+    CountDown
   }
 }
 </script>
@@ -57,6 +61,9 @@ export default {
 html,
 body {
   // background: #fff !important;
+}
+div{
+  text-align: center;
 }
 .countup {
   margin: 100px auto;
