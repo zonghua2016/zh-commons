@@ -1,9 +1,10 @@
 import ZhLoading from './src/components/loading/ZhLoading'
 import Typing from './src/components/typing/Typing'
 import CountUp from './src/components/countup/CountUp'
+import CountDown from './src/components/countdown/CountDown'
 import _Vue from 'vue'
 
-const components = [ZhLoading, Typing, CountUp]
+const components = [ZhLoading, Typing, CountUp, CountDown]
 
 const install = Vue => {
   if (install.installed) {
@@ -18,5 +19,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export {
   ZhLoading,
   Typing,
-  CountUp
+  CountUp,
+  CountDown
 };
