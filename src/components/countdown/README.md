@@ -1,6 +1,8 @@
 # CountUp
 > 倒计时组件
 
+说明: 本组件使用 WebWorker 实现，防止由于主线程阻塞(setInterval，setTimeout，页面重绘、重排等)导致倒计时不精确
+
 ## vue 组件库 zh-commons 地址
   [https://github.com/zonghua2016/zh-commons](https://github.com/zonghua2016/zh-commons)
 
