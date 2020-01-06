@@ -14,7 +14,7 @@ export default {
     props: {
         id: {
             type: String,
-            default: 'count'
+            default: 'countup'
         },
         // 最终数值
         endVal: {
