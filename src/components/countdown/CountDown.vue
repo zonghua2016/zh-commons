@@ -61,6 +61,7 @@ export default {
           }
           this.dateHtml = formatCopy;
         }
+        if(leftTime==0) (this.$emit('countDownEnd'));
       }
     },
     // 补零
@@ -80,7 +81,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" soped>
 #count_down {
   color: #555;
 }

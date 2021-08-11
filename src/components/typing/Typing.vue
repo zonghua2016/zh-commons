@@ -56,7 +56,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" soped>
 .typing {
   display: inline-block;
   width: auto;

@@ -51,7 +51,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" soped>
 * {
   margin: 0;
   padding: 0;
